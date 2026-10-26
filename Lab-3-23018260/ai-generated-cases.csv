@@ -1,0 +1,12 @@
+AI Case ID,Prompt-derived AI suggestion,Expected result under stated specification,Comparison with manual design,Assessment
+AI-01,Premium price 100,80,Overlaps TC-01,Correct
+AI-02,Regular price 100,100,Overlaps TC-02,Correct
+AI-03,Premium price 0,0,Overlaps TC-03 and lower-bound value,Correct
+AI-04,Regular price 0,0,Overlaps TC-04,Correct
+AI-05,Negative price -0.01,ValueError,Overlaps TC-09 and lower boundary,Correct if the stated nonnegative-price assumption is accepted
+AI-06,Premium price 0.01,0.008,Overlaps TC-05 and just-above boundary,Correct
+AI-07,Premium price 0.005,0.004,Overlaps TC-07,Correct; useful to check that cent-rounding was not silently added
+AI-08,Apply discount only when price is at least 50,100 becomes 80 but 49.99 gets no discount,No such threshold appears in the function docstring or stated specification,Hallucinated eligibility threshold; exclude unless an authoritative requirement confirms it
+AI-09,Round every discounted result to exactly two decimal places,0.005 becomes 0.00 after discount,The specification gives no rounding rule; current code returns 0.004,Hallucinated rounding rule; do not assert without clarification
+AI-10,Reject NaN and positive/negative infinity,ValueError,Overlaps TC-10 through TC-12,Correct under the explicit finite-price assumption
+AI-11,Reject bool for price and reject integer 0/1 as premium flags,TypeError,Overlaps TC-14 through TC-16,Correct under the explicit input-type assumptions

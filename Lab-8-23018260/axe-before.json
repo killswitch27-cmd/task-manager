@@ -1,0 +1,1070 @@
+{
+  "tool": "axe-core via @axe-core/playwright",
+  "version": "4.14.0",
+  "tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa"
+  ],
+  "results": [
+    {
+      "url": "https://alexou8.github.io/shop-demo/index.html",
+      "title": "Luxe Shop - Minimalist Luxury Meets Bold Playfulness",
+      "theme": "light",
+      "passes": 24,
+      "incomplete": 1,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#00d3a0",
+                    "bgColor": "#fafafa",
+                    "contrastRatio": 1.85,
+                    "fontSize": "13.5pt (18px)",
+                    "fontWeight": "bold",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"card product-card\" data-product-id=\"1\">",
+                      "target": [
+                        ".product-card.card[data-product-id=\"1\"]"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 1.85 (foreground color: #00d3a0, background color: #fafafa, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"product-price\">$189.00</div>",
+              "target": [
+                ".product-card.card[data-product-id=\"1\"] > .product-info > .product-price"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.85 (foreground color: #00d3a0, background color: #fafafa, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#00d3a0",
+                    "bgColor": "#fafafa",
+                    "contrastRatio": 1.85,
+                    "fontSize": "13.5pt (18px)",
+                    "fontWeight": "bold",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"card product-card\" data-product-id=\"3\">",
+                      "target": [
+                        ".product-card.card[data-product-id=\"3\"]"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 1.85 (foreground color: #00d3a0, background color: #fafafa, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"product-price\">$129.00</div>",
+              "target": [
+                ".product-card.card[data-product-id=\"3\"] > .product-info > .product-price"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.85 (foreground color: #00d3a0, background color: #fafafa, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#00d3a0",
+                    "bgColor": "#fafafa",
+                    "contrastRatio": 1.85,
+                    "fontSize": "13.5pt (18px)",
+                    "fontWeight": "bold",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"card product-card\" data-product-id=\"5\">",
+                      "target": [
+                        ".product-card.card[data-product-id=\"5\"]"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 1.85 (foreground color: #00d3a0, background color: #fafafa, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"product-price\">$58.00</div>",
+              "target": [
+                ".product-card.card[data-product-id=\"5\"] > .product-info > .product-price"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.85 (foreground color: #00d3a0, background color: #fafafa, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#00d3a0",
+                    "bgColor": "#fafafa",
+                    "contrastRatio": 1.85,
+                    "fontSize": "13.5pt (18px)",
+                    "fontWeight": "bold",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"card product-card\" data-product-id=\"10\">",
+                      "target": [
+                        ".product-card.card[data-product-id=\"10\"]"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 1.85 (foreground color: #00d3a0, background color: #fafafa, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"product-price\">$68.00</div>",
+              "target": [
+                ".product-card.card[data-product-id=\"10\"] > .product-info > .product-price"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.85 (foreground color: #00d3a0, background color: #fafafa, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://alexou8.github.io/shop-demo/shop.html",
+      "title": "Shop - Luxe Shop",
+      "theme": "light",
+      "passes": 26,
+      "incomplete": 1,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#00d3a0",
+                    "bgColor": "#fafafa",
+                    "contrastRatio": 1.85,
+                    "fontSize": "13.5pt (18px)",
+                    "fontWeight": "bold",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"card product-card\" data-product-id=\"1\">",
+                      "target": [
+                        ".card.product-card[data-product-id=\"1\"]"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 1.85 (foreground color: #00d3a0, background color: #fafafa, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"product-price\">$189.00</div>",
+              "target": [
+                ".card.product-card[data-product-id=\"1\"] > .product-info > .product-price"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.85 (foreground color: #00d3a0, background color: #fafafa, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#00d3a0",
+                    "bgColor": "#fafafa",
+                    "contrastRatio": 1.85,
+                    "fontSize": "13.5pt (18px)",
+                    "fontWeight": "bold",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"card product-card\" data-product-id=\"2\">",
+                      "target": [
+                        ".card.product-card[data-product-id=\"2\"]"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 1.85 (foreground color: #00d3a0, background color: #fafafa, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"product-price\">$145.00</div>",
+              "target": [
+                ".card.product-card[data-product-id=\"2\"] > .product-info > .product-price"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.85 (foreground color: #00d3a0, background color: #fafafa, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#00d3a0",
+                    "bgColor": "#fafafa",
+                    "contrastRatio": 1.85,
+                    "fontSize": "13.5pt (18px)",
+                    "fontWeight": "bold",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"card product-card\" data-product-id=\"3\">",
+                      "target": [
+                        ".card.product-card[data-product-id=\"3\"]"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 1.85 (foreground color: #00d3a0, background color: #fafafa, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"product-price\">$129.00</div>",
+              "target": [
+                ".card.product-card[data-product-id=\"3\"] > .product-info > .product-price"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.85 (foreground color: #00d3a0, background color: #fafafa, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#00d3a0",
+                    "bgColor": "#fafafa",
+                    "contrastRatio": 1.85,
+                    "fontSize": "13.5pt (18px)",
+                    "fontWeight": "bold",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"card product-card\" data-product-id=\"4\">",
+                      "target": [
+                        ".card.product-card[data-product-id=\"4\"]"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 1.85 (foreground color: #00d3a0, background color: #fafafa, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"product-price\">$168.00</div>",
+              "target": [
+                ".card.product-card[data-product-id=\"4\"] > .product-info > .product-price"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.85 (foreground color: #00d3a0, background color: #fafafa, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#00d3a0",
+                    "bgColor": "#fafafa",
+                    "contrastRatio": 1.85,
+                    "fontSize": "13.5pt (18px)",
+                    "fontWeight": "bold",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"card product-card\" data-product-id=\"5\">",
+                      "target": [
+                        ".card.product-card[data-product-id=\"5\"]"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 1.85 (foreground color: #00d3a0, background color: #fafafa, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"product-price\">$58.00</div>",
+              "target": [
+                ".card.product-card[data-product-id=\"5\"] > .product-info > .product-price"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.85 (foreground color: #00d3a0, background color: #fafafa, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#00d3a0",
+                    "bgColor": "#fafafa",
+                    "contrastRatio": 1.85,
+                    "fontSize": "13.5pt (18px)",
+                    "fontWeight": "bold",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"card product-card\" data-product-id=\"6\">",
+                      "target": [
+                        ".card.product-card[data-product-id=\"6\"]"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 1.85 (foreground color: #00d3a0, background color: #fafafa, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"product-price\">$45.00</div>",
+              "target": [
+                ".card.product-card[data-product-id=\"6\"] > .product-info > .product-price"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.85 (foreground color: #00d3a0, background color: #fafafa, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#00d3a0",
+                    "bgColor": "#fafafa",
+                    "contrastRatio": 1.85,
+                    "fontSize": "13.5pt (18px)",
+                    "fontWeight": "bold",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"card product-card\" data-product-id=\"7\">",
+                      "target": [
+                        ".card.product-card[data-product-id=\"7\"]"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 1.85 (foreground color: #00d3a0, background color: #fafafa, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"product-price\">$98.00</div>",
+              "target": [
+                ".card.product-card[data-product-id=\"7\"] > .product-info > .product-price"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.85 (foreground color: #00d3a0, background color: #fafafa, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#00d3a0",
+                    "bgColor": "#fafafa",
+                    "contrastRatio": 1.85,
+                    "fontSize": "13.5pt (18px)",
+                    "fontWeight": "bold",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"card product-card\" data-product-id=\"8\">",
+                      "target": [
+                        ".card.product-card[data-product-id=\"8\"]"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 1.85 (foreground color: #00d3a0, background color: #fafafa, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"product-price\">$179.00</div>",
+              "target": [
+                ".card.product-card[data-product-id=\"8\"] > .product-info > .product-price"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.85 (foreground color: #00d3a0, background color: #fafafa, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#00d3a0",
+                    "bgColor": "#fafafa",
+                    "contrastRatio": 1.85,
+                    "fontSize": "13.5pt (18px)",
+                    "fontWeight": "bold",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"card product-card\" data-product-id=\"9\">",
+                      "target": [
+                        ".card.product-card[data-product-id=\"9\"]"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 1.85 (foreground color: #00d3a0, background color: #fafafa, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"product-price\">$52.00</div>",
+              "target": [
+                ".card.product-card[data-product-id=\"9\"] > .product-info > .product-price"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.85 (foreground color: #00d3a0, background color: #fafafa, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#00d3a0",
+                    "bgColor": "#fafafa",
+                    "contrastRatio": 1.85,
+                    "fontSize": "13.5pt (18px)",
+                    "fontWeight": "bold",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"card product-card\" data-product-id=\"10\">",
+                      "target": [
+                        ".card.product-card[data-product-id=\"10\"]"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 1.85 (foreground color: #00d3a0, background color: #fafafa, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"product-price\">$68.00</div>",
+              "target": [
+                ".card.product-card[data-product-id=\"10\"] > .product-info > .product-price"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.85 (foreground color: #00d3a0, background color: #fafafa, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#00d3a0",
+                    "bgColor": "#fafafa",
+                    "contrastRatio": 1.85,
+                    "fontSize": "13.5pt (18px)",
+                    "fontWeight": "bold",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"card product-card\" data-product-id=\"11\">",
+                      "target": [
+                        ".card.product-card[data-product-id=\"11\"]"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 1.85 (foreground color: #00d3a0, background color: #fafafa, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"product-price\">$135.00</div>",
+              "target": [
+                ".card.product-card[data-product-id=\"11\"] > .product-info > .product-price"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.85 (foreground color: #00d3a0, background color: #fafafa, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#00d3a0",
+                    "bgColor": "#fafafa",
+                    "contrastRatio": 1.85,
+                    "fontSize": "13.5pt (18px)",
+                    "fontWeight": "bold",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"card product-card\" data-product-id=\"12\">",
+                      "target": [
+                        ".card.product-card[data-product-id=\"12\"]"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 1.85 (foreground color: #00d3a0, background color: #fafafa, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"product-price\">$149.00</div>",
+              "target": [
+                ".card.product-card[data-product-id=\"12\"] > .product-info > .product-price"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.85 (foreground color: #00d3a0, background color: #fafafa, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://alexou8.github.io/shop-demo/about.html",
+      "title": "About Us - Luxe Shop",
+      "theme": "light",
+      "passes": 25,
+      "incomplete": 1,
+      "violations": []
+    },
+    {
+      "url": "https://alexou8.github.io/shop-demo/cart.html",
+      "title": "Shopping Cart - Luxe Shop",
+      "theme": "light",
+      "passes": 25,
+      "incomplete": 1,
+      "violations": []
+    },
+    {
+      "url": "https://alexou8.github.io/shop-demo/shop.html",
+      "title": "Shop - Luxe Shop",
+      "theme": "dark",
+      "passes": 26,
+      "incomplete": 1,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#737373",
+                    "bgColor": "#272727",
+                    "contrastRatio": 3.15,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"card product-card\" data-product-id=\"1\">",
+                      "target": [
+                        ".card.product-card[data-product-id=\"1\"]"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 3.15 (foreground color: #737373, background color: #272727, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span>(124)</span>",
+              "target": [
+                ".card.product-card[data-product-id=\"1\"] > .product-info > .product-rating > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #737373, background color: #272727, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#737373",
+                    "bgColor": "#272727",
+                    "contrastRatio": 3.15,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"card product-card\" data-product-id=\"2\">",
+                      "target": [
+                        ".card.product-card[data-product-id=\"2\"]"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 3.15 (foreground color: #737373, background color: #272727, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span>(89)</span>",
+              "target": [
+                ".card.product-card[data-product-id=\"2\"] > .product-info > .product-rating > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #737373, background color: #272727, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#737373",
+                    "bgColor": "#272727",
+                    "contrastRatio": 3.15,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"card product-card\" data-product-id=\"3\">",
+                      "target": [
+                        ".card.product-card[data-product-id=\"3\"]"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 3.15 (foreground color: #737373, background color: #272727, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span>(267)</span>",
+              "target": [
+                ".card.product-card[data-product-id=\"3\"] > .product-info > .product-rating > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #737373, background color: #272727, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#737373",
+                    "bgColor": "#272727",
+                    "contrastRatio": 3.15,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"card product-card\" data-product-id=\"4\">",
+                      "target": [
+                        ".card.product-card[data-product-id=\"4\"]"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 3.15 (foreground color: #737373, background color: #272727, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span>(156)</span>",
+              "target": [
+                ".card.product-card[data-product-id=\"4\"] > .product-info > .product-rating > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #737373, background color: #272727, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#737373",
+                    "bgColor": "#272727",
+                    "contrastRatio": 3.15,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"card product-card\" data-product-id=\"5\">",
+                      "target": [
+                        ".card.product-card[data-product-id=\"5\"]"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 3.15 (foreground color: #737373, background color: #272727, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span>(201)</span>",
+              "target": [
+                ".card.product-card[data-product-id=\"5\"] > .product-info > .product-rating > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #737373, background color: #272727, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#737373",
+                    "bgColor": "#272727",
+                    "contrastRatio": 3.15,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"card product-card\" data-product-id=\"6\">",
+                      "target": [
+                        ".card.product-card[data-product-id=\"6\"]"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 3.15 (foreground color: #737373, background color: #272727, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span>(143)</span>",
+              "target": [
+                ".card.product-card[data-product-id=\"6\"] > .product-info > .product-rating > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #737373, background color: #272727, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#737373",
+                    "bgColor": "#272727",
+                    "contrastRatio": 3.15,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"card product-card\" data-product-id=\"7\">",
+                      "target": [
+                        ".card.product-card[data-product-id=\"7\"]"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 3.15 (foreground color: #737373, background color: #272727, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span>(178)</span>",
+              "target": [
+                ".card.product-card[data-product-id=\"7\"] > .product-info > .product-rating > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #737373, background color: #272727, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#737373",
+                    "bgColor": "#272727",
+                    "contrastRatio": 3.15,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"card product-card\" data-product-id=\"8\">",
+                      "target": [
+                        ".card.product-card[data-product-id=\"8\"]"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 3.15 (foreground color: #737373, background color: #272727, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span>(94)</span>",
+              "target": [
+                ".card.product-card[data-product-id=\"8\"] > .product-info > .product-rating > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #737373, background color: #272727, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#737373",
+                    "bgColor": "#272727",
+                    "contrastRatio": 3.15,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"card product-card\" data-product-id=\"9\">",
+                      "target": [
+                        ".card.product-card[data-product-id=\"9\"]"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 3.15 (foreground color: #737373, background color: #272727, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span>(112)</span>",
+              "target": [
+                ".card.product-card[data-product-id=\"9\"] > .product-info > .product-rating > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #737373, background color: #272727, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#737373",
+                    "bgColor": "#272727",
+                    "contrastRatio": 3.15,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"card product-card\" data-product-id=\"10\">",
+                      "target": [
+                        ".card.product-card[data-product-id=\"10\"]"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 3.15 (foreground color: #737373, background color: #272727, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span>(289)</span>",
+              "target": [
+                ".card.product-card[data-product-id=\"10\"] > .product-info > .product-rating > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #737373, background color: #272727, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#737373",
+                    "bgColor": "#272727",
+                    "contrastRatio": 3.15,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"card product-card\" data-product-id=\"11\">",
+                      "target": [
+                        ".card.product-card[data-product-id=\"11\"]"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 3.15 (foreground color: #737373, background color: #272727, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span>(167)</span>",
+              "target": [
+                ".card.product-card[data-product-id=\"11\"] > .product-info > .product-rating > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #737373, background color: #272727, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#737373",
+                    "bgColor": "#272727",
+                    "contrastRatio": 3.15,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"card product-card\" data-product-id=\"12\">",
+                      "target": [
+                        ".card.product-card[data-product-id=\"12\"]"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 3.15 (foreground color: #737373, background color: #272727, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span>(203)</span>",
+              "target": [
+                ".card.product-card[data-product-id=\"12\"] > .product-info > .product-rating > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #737373, background color: #272727, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

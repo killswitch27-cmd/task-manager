@@ -1,0 +1,11 @@
+ID,Original Finding,Severity,Fix Effort,Disposition
+F-01,app/cli.py:2 W0611 unused save_tasks import,Medium,Low,Fixed; removed unused import
+F-02,app/cli.py:2 W0611 unused add_task import,Medium,Low,Fixed; removed unused import
+F-03,tests/test_lab6_ai.py:4 W0611 unused pytest import,Medium,Low,Fixed; removed unused import
+F-04,app/cli.py:6 C0116 missing function docstring,Low,Low,Deferred; no behavior or safety impact
+F-05,tests/test_lab6_ai.py:1 C0114 missing module docstring,Low,Low,Deferred; documentation-only
+F-06,tests/test_lab6_ai.py:10 C0116 missing test docstring,Low,Low,Deferred; test name already describes behavior
+F-07,tests/test_lab6_manual.py:1 C0114 missing module docstring,Low,Low,Deferred; documentation-only
+F-08,tests/test_lab7_survivors.py:1 C0114 missing module docstring,Low,Low,Deferred; documentation-only
+F-09,tests/test_tasks.py:1 C0114 missing module docstring,Low,Low,Deferred; documentation-only
+F-10,tests/test_lab6_manual.py:8 C0116 missing test docstring,Low,Low,Deferred; test name already describes behavior

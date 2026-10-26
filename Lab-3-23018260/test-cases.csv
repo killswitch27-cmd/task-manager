@@ -1,0 +1,19 @@
+Test Case ID,Input price,Input is_premium,Expected result from stated specification,Observed result against current implementation,Result
+TC-01,100,True,80,80.0,Pass
+TC-02,100,False,100,100,Pass
+TC-03,0,True,0,0.0,Pass
+TC-04,0,False,0,0,Pass
+TC-05,0.01,True,0.008,0.008,Pass
+TC-06,0.01,False,0.01,0.01,Pass
+TC-07,0.005,True,0.004,0.004,Pass
+TC-08,0.005,False,0.005,0.005,Pass
+TC-09,-0.01,True,ValueError,-0.008,Fail
+TC-10,NaN,True,ValueError,nan,Fail
+TC-11,+infinity,True,ValueError,infinity,Fail
+TC-12,-infinity,True,ValueError,-infinity,Fail
+TC-13,"100",False,TypeError,"'100' (returned unchanged)",Fail
+TC-14,True,False,TypeError,True (returned unchanged),Fail
+TC-15,100,1,TypeError,80.0 (integer treated as truthy),Fail
+TC-16,100,0,TypeError,100 (integer treated as falsy),Fail
+TC-17,100,None,TypeError,100 (None treated as falsy),Fail
+TC-18,100,"true",TypeError,80.0 (string treated as truthy),Fail

@@ -1,0 +1,40 @@
+[
+  {
+    "name": "search returns every matching leather product",
+    "action": "search",
+    "value": "leather",
+    "expectedProducts": [
+      "Minimalist Leather Tote",
+      "Leather Card Wallet"
+    ]
+  },
+  {
+    "name": "category filter shows only tech products",
+    "action": "category",
+    "value": "Tech",
+    "expectedProducts": [
+      "Wireless Minimalist Earbuds",
+      "Smart Desk Lamp",
+      "Portable Bluetooth Speaker"
+    ]
+  },
+  {
+    "name": "price filter returns products under fifty dollars",
+    "action": "price",
+    "value": "Under $50",
+    "expectedProducts": [
+      "Merino Wool Beanie"
+    ]
+  },
+  {
+    "name": "ascending price sort puts the least expensive product first",
+    "action": "sort",
+    "value": "Price: Low to High",
+    "expectedFirstProduct": "Merino Wool Beanie"
+  },
+  {
+    "name": "adding a product updates the cart",
+    "action": "cart",
+    "value": "Merino Wool Beanie"
+  }
+]

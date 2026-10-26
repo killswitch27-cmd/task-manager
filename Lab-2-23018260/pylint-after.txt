@@ -1,0 +1,35 @@
+﻿************* Module app.cli
+app\cli.py:6:0: C0116: Missing function or method docstring (missing-function-docstring)
+************* Module test_lab6_ai
+tests\test_lab6_ai.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+tests\test_lab6_ai.py:8:0: C0116: Missing function or method docstring (missing-function-docstring)
+tests\test_lab6_ai.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+tests\test_lab6_ai.py:30:0: C0116: Missing function or method docstring (missing-function-docstring)
+tests\test_lab6_ai.py:43:0: C0116: Missing function or method docstring (missing-function-docstring)
+tests\test_lab6_ai.py:57:0: C0116: Missing function or method docstring (missing-function-docstring)
+tests\test_lab6_ai.py:68:0: C0116: Missing function or method docstring (missing-function-docstring)
+tests\test_lab6_ai.py:76:0: C0116: Missing function or method docstring (missing-function-docstring)
+************* Module test_lab6_manual
+tests\test_lab6_manual.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+tests\test_lab6_manual.py:8:0: C0116: Missing function or method docstring (missing-function-docstring)
+tests\test_lab6_manual.py:18:0: C0116: Missing function or method docstring (missing-function-docstring)
+tests\test_lab6_manual.py:25:0: C0116: Missing function or method docstring (missing-function-docstring)
+tests\test_lab6_manual.py:37:0: C0116: Missing function or method docstring (missing-function-docstring)
+tests\test_lab6_manual.py:44:0: C0116: Missing function or method docstring (missing-function-docstring)
+tests\test_lab6_manual.py:50:0: C0116: Missing function or method docstring (missing-function-docstring)
+************* Module test_lab7_survivors
+tests\test_lab7_survivors.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+tests\test_lab7_survivors.py:7:0: C0116: Missing function or method docstring (missing-function-docstring)
+tests\test_lab7_survivors.py:25:0: C0116: Missing function or method docstring (missing-function-docstring)
+************* Module test_tasks
+tests\test_tasks.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+tests\test_tasks.py:10:0: C0116: Missing function or method docstring (missing-function-docstring)
+tests\test_tasks.py:17:0: C0116: Missing function or method docstring (missing-function-docstring)
+tests\test_tasks.py:24:0: C0116: Missing function or method docstring (missing-function-docstring)
+tests\test_tasks.py:32:0: C0116: Missing function or method docstring (missing-function-docstring)
+tests\test_tasks.py:37:0: C0116: Missing function or method docstring (missing-function-docstring)
+tests\test_tasks.py:41:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 8.71/10 (previous run: 8.71/10, +0.00)
+

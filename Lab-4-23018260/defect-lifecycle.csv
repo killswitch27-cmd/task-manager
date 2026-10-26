@@ -1,0 +1,13 @@
+Defect ID,Title,Severity,Priority,Workflow Stage,Sequence,Action / Decision,Evidence
+BUG-001,Pending-task retrieval skips the first task,Medium,P1,New,1,Record the observed defect against the original sample implementation,Original HEAD:app/tasks.py iterated from index 1; original tests/test_tasks.py identifies the first-item assertion as failing
+BUG-001,Pending-task retrieval skips the first task,Medium,P1,Triaged,2,Confirm impact on users reviewing their first unfinished task; assign severity and priority,Reproducible with two unfinished tasks: only the second was returned
+BUG-001,Pending-task retrieval skips the first task,Medium,P1,Assigned,3,Assign to the sample application developer role,Illustrative training-tracker assignment; no external tracker or named assignee
+BUG-001,Pending-task retrieval skips the first task,Medium,P1,Fixed,4,Iterate over every task rather than starting at index 1,Current app/tasks.py includes the first task in pending results
+BUG-001,Pending-task retrieval skips the first task,Medium,P1,Verified,5,Run regression case TC-08 and confirm all expected pending tasks and order,Lab 4 pytest suite passes test_tc_08_pending_tasks_include_first_and_exclude_done
+BUG-001,Pending-task retrieval skips the first task,Medium,P1,Closed,6,Close after the fix and regression verification,Resolution is present and verified in the current workspace
+BUG-002,Average priority raises on an empty task list,Medium,P2,New,1,Record the observed defect against the original sample implementation,Original HEAD:app/tasks.py divided by len(tasks) without handling an empty list; original tests/test_tasks.py identifies ZeroDivisionError
+BUG-002,Average priority raises on an empty task list,Medium,P2,Triaged,2,Confirm impact on empty-project summary; assign severity and priority,Reproducible with an empty task list; function raised ZeroDivisionError instead of returning a usable result
+BUG-002,Average priority raises on an empty task list,Medium,P2,Assigned,3,Assign to the sample application developer role,Illustrative training-tracker assignment; no external tracker or named assignee
+BUG-002,Average priority raises on an empty task list,Medium,P2,Fixed,4,Return zero when the task list is empty,Current app/tasks.py guards the empty-list case
+BUG-002,Average priority raises on an empty task list,Medium,P2,Verified,5,Run regression case TC-10 and confirm the result is zero; run TC-09 for the nonempty mean,Lab 4 pytest suite passes test_tc_10_average_priority_empty and test_tc_09_average_priority_nonempty
+BUG-002,Average priority raises on an empty task list,Medium,P2,Closed,6,Close after the fix and regression verification,Resolution is present and verified in the current workspace

@@ -1,0 +1,17 @@
+COMP 441 Lab 1 - Existing test suite attempt
+Command: python -m pytest --collect-only -q
+Result: collection failed; exit code 2
+Tests collected before interruption: 36
+Collection errors: 4
+Tests executed in this full-suite attempt: 0
+Pass: 0
+Fail: 0 (no tests ran; the run ended during collection)
+
+Cause: pytest imported duplicate test_lab6_ai and test_lab6_manual module
+names from Lab_6_Deliverables, tests, and mutants. The first duplicate import
+then disagreed with the file pytest was trying to collect, producing
+"import file mismatch" errors. These are collection/configuration conflicts,
+not failed application assertions.
+
+Additional environment note: the pytest shell launcher was not on PATH;
+python -m pytest successfully launched the installed pytest 9.1.1.

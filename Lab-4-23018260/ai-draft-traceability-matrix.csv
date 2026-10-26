@@ -1,0 +1,9 @@
+Requirement ID,Requirement Description,AI Draft Test Case ID,AI Draft Test Summary,Test Level,Draft Note
+FR-01,Loading returns an empty list when the task file is missing and deserializes a saved JSON task list when it exists.,AI-TC-01,Missing file returns an empty list,Unit,Existing-file read path omitted
+FR-02,Saving persists the supplied task list so it can be loaded back without data loss.,AI-TC-02,Save then reload a representative task list,Unit,Representative round-trip only
+FR-03,Adding a task appends it with the next ID based on the current list length and expected default or caller-supplied fields.,AI-TC-03,New task gets expected default values,Unit,Custom tags/priority and copied-list behavior omitted
+FR-04,Completing a known task marks it done and reports success; an unknown ID reports failure without changing tasks.,AI-TC-04,Completing a known ID marks it done,Unit,Unknown-ID behavior omitted
+FR-05,Pending-task retrieval returns unfinished tasks in input order and includes tasks whose done field is absent.,AI-TC-05,Pending results exclude completed tasks,Unit,First-item boundary and missing done key not explicit
+FR-06,Average priority is the arithmetic mean for a nonempty list and is zero for an empty list.,AI-TC-06,Average a nonempty set of priorities,Unit,Empty-list behavior omitted
+FR-07,Title lookup returns the first exact match or None if no title matches.,AI-TC-07,Find a task by exact title,Unit,Missing and duplicate-title cases omitted
+FR-08,Removing a known ID removes only that task; an unknown ID leaves the list unchanged.,AI-TC-08,Remove a task by ID,Unit,Unknown-ID no-op omitted

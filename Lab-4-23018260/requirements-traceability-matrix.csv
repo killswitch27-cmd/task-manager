@@ -1,0 +1,9 @@
+Requirement ID,Requirement Description,Test Case ID(s),Test Level,Status
+FR-01,Loading returns an empty list when the task file is missing and deserializes a saved JSON task list when it exists.,TC-01; TC-02,Unit,Pass (Lab 4 suite)
+FR-02,Saving persists the supplied task list so it can be loaded back without data loss.,TC-03,Unit,Pass (Lab 4 suite)
+FR-03,Adding a task appends it with the next ID based on the current list length and expected default or caller-supplied fields.,TC-04; TC-05,Unit,Pass (Lab 4 suite)
+FR-04,Completing a known task marks it done and reports success; an unknown ID reports failure without changing tasks.,TC-06; TC-07,Unit,Pass (Lab 4 suite)
+FR-05,Pending-task retrieval returns unfinished tasks in input order and includes tasks whose done field is absent.,TC-08,Unit,Pass (Lab 4 suite)
+FR-06,Average priority is the arithmetic mean for a nonempty list and is zero for an empty list.,TC-09; TC-10,Unit,Pass (Lab 4 suite)
+FR-07,Title lookup returns the first exact match or None if no title matches.,TC-11; TC-12; TC-13,Unit,Pass (Lab 4 suite)
+FR-08,Removing a known ID removes only that task; an unknown ID leaves the list unchanged.,TC-14; TC-15,Unit,Pass (Lab 4 suite)

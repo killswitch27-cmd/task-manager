@@ -1,0 +1,52 @@
+{
+  "tool": "axe-core via @axe-core/playwright",
+  "version": "4.14.0",
+  "tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa"
+  ],
+  "results": [
+    {
+      "url": "https://alexou8.github.io/shop-demo/index.html",
+      "title": "Luxe Shop - Minimalist Luxury Meets Bold Playfulness",
+      "theme": "light",
+      "passes": 24,
+      "incomplete": 1,
+      "violations": []
+    },
+    {
+      "url": "https://alexou8.github.io/shop-demo/shop.html",
+      "title": "Shop - Luxe Shop",
+      "theme": "light",
+      "passes": 26,
+      "incomplete": 1,
+      "violations": []
+    },
+    {
+      "url": "https://alexou8.github.io/shop-demo/about.html",
+      "title": "About Us - Luxe Shop",
+      "theme": "light",
+      "passes": 25,
+      "incomplete": 1,
+      "violations": []
+    },
+    {
+      "url": "https://alexou8.github.io/shop-demo/cart.html",
+      "title": "Shopping Cart - Luxe Shop",
+      "theme": "light",
+      "passes": 25,
+      "incomplete": 1,
+      "violations": []
+    },
+    {
+      "url": "https://alexou8.github.io/shop-demo/shop.html",
+      "title": "Shop - Luxe Shop",
+      "theme": "dark",
+      "passes": 26,
+      "incomplete": 1,
+      "violations": []
+    }
+  ]
+}

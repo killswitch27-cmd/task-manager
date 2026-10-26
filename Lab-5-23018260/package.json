@@ -1,0 +1,11 @@
+{
+  "name": "comp441-lab5",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "playwright": "^1.56.0"
+  }
+}

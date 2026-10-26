@@ -1,0 +1,11 @@
+Input,Partition,Class,Valid / Invalid,Expected behavior,Representative test cases,Specification basis
+price,P1,Finite built-in int or float greater than zero (bool excluded),Valid,Premium price returns 80 percent; regular price is unchanged,TC-01; TC-02; TC-05; TC-06; TC-07; TC-08,Assumption: price represents a nonnegative monetary amount
+price,P2,Zero,Valid,Returns zero for either premium status,TC-03; TC-04,Assumption: zero-valued prices are allowed
+price,P3,Negative finite number,Invalid,Raise ValueError,TC-09,Assumption: negative monetary prices are not allowed
+price,P4,NaN or positive/negative infinity,Invalid,Raise ValueError,TC-10; TC-11; TC-12,Assumption: price must be finite
+price,P5,String or other nonnumeric type,Invalid,Raise TypeError,TC-13,Assumption: price must be a built-in int or float
+price,P6,Boolean used as a price,Invalid,Raise TypeError,TC-14,Assumption: bool is not accepted as a monetary amount even though Python bool subclasses int
+is_premium,F1,Exactly True,Valid,Apply 20 percent discount,TC-01; TC-03; TC-05; TC-07,Function name and docstring identify a premium-user flag
+is_premium,F2,Exactly False,Valid,Return the undiscounted price,TC-02; TC-04; TC-06; TC-08,Function name and docstring identify a premium-user flag
+is_premium,F3,Integer 1 or 0,Invalid,Raise TypeError; do not treat integer truthiness as a boolean flag,TC-15; TC-16,Assumption: flag type must be bool
+is_premium,F4,None or string,Invalid,Raise TypeError,TC-17; TC-18,Assumption: flag type must be bool

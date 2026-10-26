@@ -1,8 +1,6 @@
 
 import json
 
-import pytest
-
 import app.tasks as task_module
 from app.tasks import load_tasks, save_tasks, find_task_by_title
 

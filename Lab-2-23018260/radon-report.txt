@@ -1,0 +1,23 @@
+﻿app\cli.py
+    F 6:0 main - A (1)
+app\storage.py
+    F 8:0 format_task_report - A (2)
+    F 17:0 days_until_due - A (1)
+    F 25:0 build_query - A (1)
+app\tasks.py
+    F 38:0 complete_task - A (3)
+    F 47:0 get_pending_tasks - A (3)
+    F 56:0 average_priority - A (3)
+    F 64:0 find_task_by_title - A (3)
+    F 72:0 remove_task - A (3)
+    F 8:0 load_tasks - A (2)
+    F 23:0 add_task - A (2)
+    F 80:0 calculate_discount - A (2)
+    F 17:0 save_tasks - A (1)
+
+13 blocks (classes, functions, methods) analyzed.
+Average complexity: A (2.076923076923077)
+app\cli.py - A (72.27)
+app\storage.py - A (58.03)
+app\tasks.py - A (44.99)
+app\__init__.py - A (100.00)

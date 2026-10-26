@@ -1,0 +1,6 @@
+Rank,Function,File,Line,Cyclomatic Complexity,Risk Band
+1,complete_task,app/tasks.py,38,3,A
+2,get_pending_tasks,app/tasks.py,47,3,A
+3,average_priority,app/tasks.py,56,3,A
+4,load_tasks,app/tasks.py,8,2,A
+5,add_task,app/tasks.py,23,2,A

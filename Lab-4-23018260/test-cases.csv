@@ -1,0 +1,16 @@
+Test Case ID,Requirement ID,Test Description,Test Data / Condition,Expected Result,Executable Test
+TC-01,FR-01,Load tasks when the file is absent,Missing temporary tasks.json,Empty list,test_tc_01_load_missing_file
+TC-02,FR-01,Load an existing serialized task list,Valid JSON containing one task,Loaded list equals serialized data,test_tc_02_load_existing_file
+TC-03,FR-02,Save and reload a task list,Two tasks with different fields,Reloaded data equals original list,test_tc_03_save_and_reload
+TC-04,FR-03,Add a task with defaults,Existing one-task list and title,New task ID is current list length plus one and has default priority empty tags and done false,test_tc_04_add_task_defaults
+TC-05,FR-03,Add a task with caller values and copied tags,Priority 3 and caller-owned tags list,Values preserved and task tags are a separate list,test_tc_05_add_task_custom_fields
+TC-06,FR-04,Complete a known task,Task ID exists,Returns true and marks only matching task done,test_tc_06_complete_known_task
+TC-07,FR-04,Complete an unknown task,Task ID absent,Returns false and leaves tasks unchanged,test_tc_07_complete_unknown_task
+TC-08,FR-05,Return pending tasks in order including the first item,Mixed unfinished and completed tasks; one unfinished task lacks done,Returns all unfinished tasks in input order,test_tc_08_pending_tasks_include_first_and_exclude_done
+TC-09,FR-06,Average priorities for a nonempty list,Priorities 1 2 and 3,Returns 2,test_tc_09_average_priority_nonempty
+TC-10,FR-06,Average priority for empty list,No tasks,Returns 0,test_tc_10_average_priority_empty
+TC-11,FR-07,Find an exact matching title,Two tasks with distinct titles,Returns matching task,test_tc_11_find_matching_title
+TC-12,FR-07,Find a missing title,No task has requested title,Returns None,test_tc_12_find_missing_title
+TC-13,FR-07,Find a duplicated title,Two tasks share requested title,Returns first matching task,test_tc_13_find_first_duplicate_title
+TC-14,FR-08,Remove a known task ID,Three tasks with middle ID selected,Only selected task is removed,test_tc_14_remove_known_task
+TC-15,FR-08,Remove an unknown task ID,No task has requested ID,Task list remains unchanged,test_tc_15_remove_unknown_task

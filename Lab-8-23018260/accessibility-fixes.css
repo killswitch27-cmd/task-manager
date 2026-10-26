@@ -1,0 +1,7 @@
+html:not([data-theme="dark"]) .product-price {
+  color: #006b50 !important;
+}
+
+html[data-theme="dark"] .product-rating > span {
+  color: #bdbdbd !important;
+}

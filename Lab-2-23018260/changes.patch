@@ -1,0 +1,21 @@
+diff --git a/app/cli.py b/app/cli.py
+--- a/app/cli.py
++++ b/app/cli.py
+@@ -1,5 +1,5 @@
+ """Command-line entry point for the Task Manager sample app."""
+-from app.tasks import load_tasks, save_tasks, add_task, get_pending_tasks
++from app.tasks import load_tasks, get_pending_tasks
+ from app.storage import format_task_report
+ 
+ 
+diff --git a/tests/test_lab6_ai.py b/tests/test_lab6_ai.py
+--- a/tests/test_lab6_ai.py
++++ b/tests/test_lab6_ai.py
+@@ -1,8 +1,6 @@
+ import json
+ 
+-import pytest
+-
+ import app.tasks as task_module
+ from app.tasks import load_tasks, save_tasks, find_task_by_title
+ 

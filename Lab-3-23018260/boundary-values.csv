@@ -1,0 +1,6 @@
+Input,Boundary,Just-below / invalid-side value,At-boundary value,Just-above / valid-side value,Related tests,Notes
+price,Lower limit 0,-0.01 (invalid),0 (valid),0.01 (valid),TC-09; TC-03; TC-05,No upper price limit is defined by the sample function; finite numeric input is assumed
+price,Small positive finite amount,Not applicable,0.01 (valid),0.02 (valid),TC-05; TC-07,0.005 is also tested to expose any unrequested whole-cent rounding assumption (TC-07)
+price,Finite-number constraint,-infinity (invalid),Largest finite values have no specified maximum,+infinity (invalid),TC-12; TC-11,NaN is unordered and invalid rather than a numeric boundary point (TC-10)
+is_premium,Boolean domain boundary,0 (invalid integer),False (valid bool),True (valid bool),TC-16; TC-04; TC-03,False and True are categorical alternatives rather than an ordered numeric range
+is_premium,Boolean type boundary,1 (invalid integer),True (valid bool),"true" (invalid string),TC-15; TC-01; TC-18,The value must be exactly bool; truthy/falsy values are not accepted

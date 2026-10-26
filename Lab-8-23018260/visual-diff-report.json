@@ -1,0 +1,27 @@
+{
+  "route": "https://alexou8.github.io/shop-demo/shop.html",
+  "change": "main h1 margin-top changed to 48px",
+  "threshold": 0.1,
+  "scenarios": [
+    {
+      "name": "desktop",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "changedPixels": 106075,
+      "totalPixels": 1152000,
+      "changedPercent": 9.2079
+    },
+    {
+      "name": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "changedPixels": 18697,
+      "totalPixels": 329160,
+      "changedPercent": 5.6802
+    }
+  ]
+}

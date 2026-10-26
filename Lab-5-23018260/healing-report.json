@@ -1,0 +1,16 @@
+{
+  "target": "Local category-filter fixture",
+  "drift": "The select element id changed from category-filter to category-dropdown; its accessible label remained Category.",
+  "withoutRecovery": {
+    "locator": "#category-filter",
+    "result": "failed",
+    "reason": "The original id no longer identifies an element."
+  },
+  "withRecovery": {
+    "locator": "Accessible label Category",
+    "result": "passed",
+    "recovered": true
+  },
+  "recoveryRate": "1/1 (100%)",
+  "toolingNote": "This is a deterministic Playwright locator-fallback demonstration, not a Healenium run. Docker/Healenium was unavailable in the execution environment."
+}

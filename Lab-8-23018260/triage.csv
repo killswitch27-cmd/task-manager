@@ -1,0 +1,3 @@
+Finding,Page and state,WCAG criterion,Conformance,Impact,Before,Required,Fix,After
+Product price text contrast,Home and shop / light,1.4.3 Contrast (Minimum),AA,Serious,1.85:1,4.5:1,"Change #00d3a0 to #006b50; 16 affected nodes",0 axe violations
+Review-count text contrast,Shop / dark,1.4.3 Contrast (Minimum),AA,Serious,2.86:1,4.5:1,"Change #737373 to #bdbdbd; 12 affected nodes",0 axe violations
